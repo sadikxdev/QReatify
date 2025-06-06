@@ -1,0 +1,212 @@
+.about {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    /* width: 100%; */
+}
+
+@keyframes appear{
+    from{
+        opacity: 0;
+        scale: 0.5;
+    }
+    to{
+        opacity: 1;
+        scale: 1;
+    }
+}
+
+#about {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.aboutHead {
+    font-family: 'Parkinsans';
+
+    font-weight: bold;
+    color: aliceblue;
+}
+
+.about img {
+    height: 350px;
+}
+
+.about1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: 'Parkinsans';
+    color: aliceblue;
+    width: 900px;
+}
+
+
+/* Objectives and More(GOAL).. */
+
+.goal {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100vw;
+}
+
+.goal1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Parkinsans';
+    background-color: #222831;
+    height: 400px;
+    width: 350px;
+    border-radius: 10px;
+    color: aliceblue;
+    background-image: url("https://www.transparenttextures.com/patterns/white-wall-3-2.png");
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.4);
+    transition: all ease 0.4s;
+    cursor: pointer;
+    animation: appear linear;
+    animation-timeline: view();
+    animation-range: entry 0% cover 40%;
+}
+
+
+.goalImg {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    max-width: 100px;
+    display: block;
+    margin: 0 auto;
+    color: aliceblue;
+}
+
+.goal1:hover {
+    transform: scale(1.03);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.8);
+}
+
+/* Extra small devices (portrait phones) */
+@media (max-width: 576px) {
+    .about1{
+        width: 90%;
+    }
+
+    .about1 p{
+        font-size: 12px;
+    }
+    
+    .goal{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        gap: 20px;
+    }
+
+    .goal1{
+        height: 330px;
+        width: 75%;
+    }
+
+    .goalImg {
+        width: 60px;
+        height: auto;
+        object-fit: contain;
+        max-width: 100px;
+        display: block;
+        margin: 0 auto;
+        color: aliceblue;
+    }
+    .goal1{
+        justify-content: flex-start;
+    }
+}
+
+/* Small devices (landscape phones, < tablets) */
+@media (min-width: 577px) and (max-width: 768px) {
+    .about1{
+        width: 90%;
+    }
+
+    .about1 p{
+        font-size: 15px;
+    }
+    
+    .goal{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        gap: 20px;
+    }
+
+    .goal1{
+        height: 330px;
+        width: 50%;
+    }
+
+    .goalImg {
+        width: 80px;
+        height: auto;
+        object-fit: contain;
+        max-width: 100px;
+        display: block;
+        color: aliceblue;
+    }
+    .goal1{
+        justify-content: flex-start;
+    }
+}
+
+/* Medium devices (tablets) */
+@media (min-width: 769px) and (max-width: 992px) {
+    .about1{
+        width: 90%;
+    }
+    .goal1 {
+        width: 30%;
+    }
+
+    .goalImg {
+        width: 80px;
+        height: auto;
+        object-fit: contain;
+        max-width: 100px;
+        display: block;
+        color: aliceblue;
+    }
+    .goal1{
+        justify-content: flex-start;
+    }
+}
+
+/* Large devices (desktops) */
+@media (min-width: 993px) and (max-width: 1200px) {
+    .goal1 {
+        width: 30%;
+    }
+
+    .goalImg {
+        width: 80px;
+        height: auto;
+        object-fit: contain;
+        max-width: 100px;
+        display: block;
+        margin: 0 auto;
+        color: aliceblue;
+    }
+}
+
+/* Extra large devices (large desktops, 4K) */
+@media (min-width: 1201px) {}

@@ -1,0 +1,398 @@
+.input-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 600px;
+    height: 450px;
+    background-color: #171721;
+    background-image: url("https://www.transparenttextures.com/patterns/xv.png");
+    border-radius: 12px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.6);
+    font-family: 'Parkinsans';
+}
+
+#form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.dotLabel {
+    font-weight: 700;
+    color: aliceblue;
+    margin-left: 20px;
+}
+
+.input-div h1 {
+    font-weight: bolder;
+    color: aliceblue;
+}
+
+.input-select {
+    height: 35px;
+    width: 150px;
+    background-color: aliceblue;
+    font-family: 'Parkinsans';
+    font-weight: 700;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.input-data {
+    height: 35px;
+    width: 450px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: 'Parkinsans';
+    font-weight: 900;
+    border-radius: 10px;
+    transition: all ease 0.4s;
+    background-color: aliceblue;
+}
+
+.input-data:focus {
+    transform: scale(1.03);
+}
+
+.color-label {
+    font-weight: 700;
+    color: aliceblue;
+}
+
+.input-color {
+    height: 40px;
+    width: 60px;
+    margin-left: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.colorInputDiv {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.BTN {
+    height: 60px;
+    width: 200px;
+    font-family: 'Parkinsans';
+    font-size: 15px;
+    font-weight: 900;
+    background-color: aliceblue;
+    text-align: center;
+    margin-top: 50px;
+    border-radius: 10px;
+    transition: all ease 0.4s;
+    cursor: pointer;
+}
+
+.BTN:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.6);
+}
+
+/* OUTPUT DIV */
+
+
+.afterBTN {
+    height: 45px;
+    width: 200px;
+    font-family: 'Parkinsans';
+    font-weight: 900;
+    font-size: 15px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    transition: all ease 0.4s;
+    cursor: pointer;
+    background-color: aliceblue;
+}
+
+.afterBTN:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.6);
+}
+
+
+.output-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 600px;
+    height: fit-content;
+    background-color: #171721;
+    background-image: url("https://www.transparenttextures.com/patterns/xv.png");
+    border-radius: 12px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.6);
+    font-family: 'Parkinsans';
+    color: aliceblue;
+}
+
+#qr-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.generatedQR {
+    height: 220px;
+    width: 220px;
+    border-radius: 12px;
+}
+
+.twoBTN {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 500px;
+}
+
+.selects {
+    margin: 20px 0 20px 0;
+}
+
+
+
+    .colorDiv{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+#dataType{
+    width: 150px;
+}
+
+/* Resposnsiveness */
+
+/* Extra small devices (portrait phones) */
+@media (max-width: 576px) {
+
+    /* InputDiv */
+    .input-div{
+        width: 95%;
+        max-width: 600px;
+        padding: 20px;
+        box-sizing: border-box;
+    }
+
+    .input-div h1 {
+        font-size: 22px;
+    }
+
+    #form {
+        width: 95%;
+        max-width: 600px;
+        padding: 20px;
+        box-sizing: border-box;
+    }
+
+    .input-data {
+        width: 100%;
+        max-width: 450px;
+        box-sizing: border-box;
+    }
+    .BTN{
+        height: 40px;
+    }
+    /* OutputDiv */
+    .output-div{
+        width: 95%;
+        max-width: 600px;
+        padding: 20px;
+        box-sizing: border-box;
+        height: fit-content;
+    }
+    .colorInputDiv{
+        width: 100%;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .colorDiv{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    .output-div h2{
+        font-size: 20px;
+    }
+    .selects{
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .input-select{
+        width: 80%;
+    }
+    .twoBTN{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+/* Small devices (landscape phones, < tablets) */
+@media (min-width: 577px) and (max-width: 768px) {
+
+   
+
+    .input-div{
+        width: 95%;
+        max-width: 600px;
+        padding: 20px;
+        box-sizing: border-box;
+    }
+
+    .input-div h1 {
+        font-size: 22px;
+    }
+
+    #form {
+        width: 95%;
+        max-width: 600px;
+        padding: 20px;
+        box-sizing: border-box;
+    }
+
+    .input-data {
+        width: 100%;
+        max-width: 450px;
+        box-sizing: border-box;
+    }
+    .BTN{
+        height: 40px;
+    }
+    /* OutputDiv */
+    .output-div{
+        width: 95%;
+        max-width: 600px;
+        padding: 20px;
+        box-sizing: border-box;
+        height: fit-content;
+    }
+    .colorInputDiv{
+        width: 100%;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .colorDiv{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    .output-div h2{
+        font-size: 20px;
+    }
+    .selects{
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .input-select{
+        width: 80%;
+    }
+    .twoBTN{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+}
+
+/* Medium devices (tablets) */
+@media (min-width: 769px) and (max-width: 992px) {
+    .input-div{
+        width: 95%;
+        max-width: 600px;
+        padding: 20px;
+        box-sizing: border-box;
+    }
+
+    .input-div h1 {
+        font-size: 22px;
+    }
+
+    #form {
+        width: 95%;
+        max-width: 600px;
+        padding: 20px;
+        box-sizing: border-box;
+    }
+
+    .input-data {
+        width: 100%;
+        max-width: 450px;
+        box-sizing: border-box;
+    }
+    .BTN{
+        height: 40px;
+    }
+    /* OutputDiv */
+    .output-div{
+        width: 95%;
+        max-width: 600px;
+        padding: 20px;
+        box-sizing: border-box;
+        height: fit-content;
+    }
+    .colorInputDiv{
+        width: 100%;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .colorDiv{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    .output-div h2{
+        font-size: 20px;
+    }
+    .selects{
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .input-select{
+        width: 80%;
+    }
+    .twoBTN{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+/* Large devices (desktops) */
+@media (min-width: 993px) and (max-width: 1200px) {}
+
+/* Extra large devices (large desktops, 4K) */
+@media (min-width: 1201px) {}
