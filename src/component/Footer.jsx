@@ -47,7 +47,7 @@ function Footer() {
                 <h4>Quick Navigations</h4>
                 <div className="footnav">
                     <a href="https://github.com/sadikxdev/" target="_blank" rel="noopener noreferrer">
-                        <img src="/images/github.png" className="qimg" alt="Github" />
+                        <img src={process.env.PUBLIC_URL + "/images/github.png"} className="qimg" alt="Github" />
                     </a>
                     <a href="https://www.linkedin.com/in/sxdik18/" target="_blank" rel="noopener noreferrer">
                         <img src="/images/linkedin.png" className="qimg" alt="LinkedIn" />
