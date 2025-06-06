@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/QReatify/static/css/main.240ecb2f.css",
+    "main.js": "/QReatify/static/js/main.8c468bc4.js",
+    "static/js/488.f3ceb090.chunk.js": "/QReatify/static/js/488.f3ceb090.chunk.js",
+    "index.html": "/QReatify/index.html",
+    "main.240ecb2f.css.map": "/QReatify/static/css/main.240ecb2f.css.map",
+    "main.8c468bc4.js.map": "/QReatify/static/js/main.8c468bc4.js.map",
+    "488.f3ceb090.chunk.js.map": "/QReatify/static/js/488.f3ceb090.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.240ecb2f.css",
+    "static/js/main.8c468bc4.js"
+  ]
+}
