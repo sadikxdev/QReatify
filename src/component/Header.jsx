@@ -4,7 +4,7 @@ import "../CSS/main.css";
 function Header() {
   return (
     <header>
-      <a className="homeroute" href="https://www.instagram.com/sxdik18"><div className="title"><h1>QReatify</h1></div></a>
+      <a className="homeroute" href="https://sadikxdev.github.io/QReatify/"><div className="title"><h1>QReatify</h1></div></a>
       <div className="nav">
         <a href="#home" className="navlink">Home</a>
         <a href="#about" className="navlink">About</a>
