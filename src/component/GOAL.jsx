@@ -6,7 +6,7 @@ function GOAL() {
         <div className="goal">
             
             <div className="goal1">
-                <img src="/images/target.png" alt="Bulls Eye" className="goalImg" />
+                <img src={process.env.PUBLIC_URL + "/images/target.png"} alt="Bulls Eye" className="goalImg" />
                 <h3>Objective</h3>
                 <ul>
                     <li>To create a user-friendly QR code generator
@@ -20,7 +20,7 @@ function GOAL() {
             </div>
 
             <div className="goal1">
-                <img src="/images/scope.png" alt="Scope" className="goalImg"/>
+                <img src={process.env.PUBLIC_URL + "/images/scope.png"} alt="Scope" className="goalImg"/>
                     <h3>Scope</h3>
                     <ul>
                         <li>Developing dynamic web application for QR
@@ -34,7 +34,7 @@ function GOAL() {
             </div>
 
             <div className="goal1">
-                <img src="/images/speedometer.png" alt="Speed Meter" className="goalImg"/>
+                <img src={process.env.PUBLIC_URL + "/images/speedometer.png"} alt="Speed Meter" className="goalImg"/>
                     <h3>Limitations</h3>
                     <ul>
                         <li>Limited to generating static QR codes.</li>

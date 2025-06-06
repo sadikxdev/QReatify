@@ -50,15 +50,15 @@ function Footer() {
                         <img src={process.env.PUBLIC_URL + "/images/github.png"} className="qimg" alt="Github" />
                     </a>
                     <a href="https://www.linkedin.com/in/sxdik18/" target="_blank" rel="noopener noreferrer">
-                        <img src="/images/linkedin.png" className="qimg" alt="LinkedIn" />
+                        <img src={process.env.PUBLIC_URL + "/images/linkedin.png"} className="qimg" alt="LinkedIn" />
                     </a>
                 </div>
                 <div className="footnav">
                     <a href="http://www.instagram.com/sadikxdev/" target="_blank" rel="noopener noreferrer">
-                        <img src="/images/Insta.png" className="qimg" alt="Instagram" />
+                        <img src={process.env.PUBLIC_URL + "/images/insta.png"} className="qimg" alt="Instagram" />
                     </a>
                     <a href="https://x.com/sadikxdev/" target="_blank" rel="noopener noreferrer">
-                        <img src="/images/twitter.png" className="qimg" alt="X" />
+                        <img src={process.env.PUBLIC_URL + "/images/twitter.png"} className="qimg" alt="X" />
                     </a>
                 </div>
             </div>
