@@ -55,7 +55,7 @@ function Footer() {
                 </div>
                 <div className="footnav">
                     <a href="https://www.instagram.com/sadikxdev18/" target="_blank" rel="noopener noreferrer">
-                        <img src={process.env.PUBLIC_URL + "/images/insta.png"} className="qimg" alt="Instagram" />
+                        <img src={process.env.PUBLIC_URL + "/images/insta.png"} className="qimg noimg" alt="Instagram" />
                     </a>
                     <a href="https://x.com/sadikxdev18/" target="_blank" rel="noopener noreferrer">
                         <img src={process.env.PUBLIC_URL + "/images/twitter.png"} className="qimg" alt="X" />
