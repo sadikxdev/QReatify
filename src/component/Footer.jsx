@@ -49,7 +49,7 @@ function Footer() {
                     <a href="https://github.com/sadikxdev/" target="_blank" rel="noopener noreferrer">
                         <img src={process.env.PUBLIC_URL + "/images/github.png"} className="qimg" alt="Github" />
                     </a>
-                    <a href="www.linkedin.com/in/sadik-shaikh-994b51266/" target="_blank" rel="noopener noreferrer">
+                    <a href="https://www.linkedin.com/in/sadik-shaikh-994b51266/" target="_blank" rel="noopener noreferrer">
                         <img src={process.env.PUBLIC_URL + "/images/linkedin.png"} className="qimg" alt="LinkedIn" />
                     </a>
                 </div>
