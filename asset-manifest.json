@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/QReatify/static/css/main.a60597a3.css",
-    "main.js": "/QReatify/static/js/main.640b3676.js",
+    "main.js": "/QReatify/static/js/main.e0137e41.js",
     "static/js/488.f3ceb090.chunk.js": "/QReatify/static/js/488.f3ceb090.chunk.js",
     "index.html": "/QReatify/index.html",
     "main.a60597a3.css.map": "/QReatify/static/css/main.a60597a3.css.map",
-    "main.640b3676.js.map": "/QReatify/static/js/main.640b3676.js.map",
+    "main.e0137e41.js.map": "/QReatify/static/js/main.e0137e41.js.map",
     "488.f3ceb090.chunk.js.map": "/QReatify/static/js/488.f3ceb090.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a60597a3.css",
-    "static/js/main.640b3676.js"
+    "static/js/main.e0137e41.js"
   ]
 }
